@@ -52,7 +52,6 @@ const PieChart: React.FC<PieChartProps> = ({ pools, blockCount }) => {
         series: [{
             type: 'pie', // Specify the type as 'pie'
             name: 'Percentage',
-            colorByPoint: true,
             data: chartData
         }],
         tooltip: {
