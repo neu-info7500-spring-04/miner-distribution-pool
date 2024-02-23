@@ -34,6 +34,9 @@ const PieChart: React.FC<PieChartProps> = ({ pools, blockCount }) => {
                 beta: 0
             }
         },
+        accessibility: { // Include accessibility options
+            enabled: false
+        },
         title: {
             text: 'Miner pool distribution'
         },
